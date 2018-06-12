@@ -1,0 +1,29 @@
+{% extends 'My_Songs/base.html' %}
+
+{% block title %} Albums {% endblock %}
+
+{% block body %}
+
+        <center>
+
+                {% if all_albums %}
+
+                    <h1>Owen's Albums</h1>
+
+                    <img class="img-circle" src = "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12804896_1147874438579277_3378301262197219096_n.jpg?_nc_cat=0&oh=84a31c8a2d4eb47b253d440c7212d603&oe=5BADC7C6">
+
+
+                        {%for album in all_albums%}
+                            <h3><a href = "{% url 'My_Songs:detail' album.id %}">{{ album.album_title }}</a></h3>
+                        {% endfor %}
+
+
+                {% else %}
+                    <h3>What, do you hate music?</h3>
+
+                {% endif %}
+
+        </center>
+
+{% endblock %}
+

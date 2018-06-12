@@ -1,0 +1,26 @@
+{% extends 'My_Songs/base.html' %}
+
+{% block title %} All Songs {% endblock %}
+
+{% block body %}
+
+
+
+        {% csrf_token %}
+
+        {% for album in all_albums %}
+            <h3>{{ album.album_title }}</h3>
+            {% for song in album.song_set.all %}
+                 <ul>
+                    {% if song.song_link != null %}
+                        <a href = "{{ song.song_link }}" target="_blank">{{song.song_title}}</a>
+                    {% else %}
+                        {{song.song_title}}
+                    {% endif %}
+                </ul>
+            {% endfor %}
+        {% endfor %}
+
+
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'My_Songs/base.html' %}
+
+{% block title %} Umbrella Made of Rain {% endblock %}
+
+{% block body %}
+
+    <center>
+
+        <div class="container-fluid">
+            <h1>{{ album.album_title }}</h1>
+            <h3>{{ album.artist }} </h3>
+            <img class="img-circle" src = "{{ album.album_logo }}" width="900" height="600" />
+        </div>
+
+        {% if error_message %}
+            <p><strong>{{ error_message }}</strong></p>
+        {% endif %}
+
+        <form action = "{% url 'My_Songs:favorite' album.id %}" method="post">
+
+            {% csrf_token %}
+            {% for song in album.song_set.all %}
+
+            <ul>
+                {% if song.song_link != null %}
+                    <a href = "{{ song.song_link }}" target="_blank">{{song.song_title}}</a>
+                {% else %}
+                    {{song.song_title}}
+                {% endif %}
+            </ul>
+
+            {% endfor %}
+
+        </form>
+
+    </center>
+
+{% endblock %}

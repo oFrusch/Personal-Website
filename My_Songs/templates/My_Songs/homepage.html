@@ -1,0 +1,59 @@
+<head>
+{% extends 'My_Songs/base.html' %}
+
+<!-- Loads CSS styling -->
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'My_Songs/homepage.css' %}" />
+
+
+{% block title %} Djangoland {% endblock %}
+
+{% block body %}
+</head>
+
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row" id="logo" >
+
+            <div class="col-sm-3">
+                <h1 style="margin-left:22px">Djangoland</h1>
+
+                <img class="img-circle"
+                     src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12274584_1096353490398039_2194026952118303127_n.jpg?_nc_cat=0&oh=49a2e6388b1e19956d5914eb019b3404&oe=5B771D14" width="230" height="250">
+            </div>
+
+            <div class="col-sm-2">
+                <h3>Computer Science</h3>
+            </div>
+
+            <div class="col-sm-2">
+                <h3>Music</h3>
+            </div>
+
+            <div class="col-sm-2">
+                <h3>Games</h3>
+            </div>
+
+            <div class="col-sm-2">
+                <h3>Writing</h3>
+            </div>
+
+        </div>
+
+        <div class="row" style="vertical-align:middle; margin-left:-7px; margin-top:7px">
+            <a href="https://www.facebook.com/owen.carpenter.50?ref=bookmarks" target="_blank"><i class="fa fa-facebook-square" style="font-size:48px; color:#3B5998; margin-left:23px; margin-bottom:20px"></i></a>
+            <a href="https://www.youtube.com/channel/UCpKvmRgD_AFG4b534sG0nXA?view_as=subscriber" target="_blank"><i class="fa fa-youtube-square" style="font-size:48px; color:#e52d27; margin-left:33px; margin-top:5px"></i></a>
+            <a href="https://twitter.com/Unfold_Reality" target="_blank"><i class="fa fa-twitter" style="font-size:48px; color:#00aced; margin-left:30px; margin-top:5px"></i></a>
+        </div>
+
+        <div class="row" style="vertical-align:middle; margin-left:7px; margin-top:7px">
+            <h4>Email: <h5>owenc343@gmail.com</h5></h4>
+        </div>
+
+
+    </div>
+</body>
+
+{% endblock %}
