@@ -9,7 +9,7 @@
         {% csrf_token %}
 
         {% for album in all_albums %}
-            <h3>{{ album.album_title }}</h3>
+            <h4 style="margin-left:25px">{{ album.album_title }}</h4>
             {% for song in album.song_set.all %}
                  <ul>
                     {% if song.song_link != null %}
