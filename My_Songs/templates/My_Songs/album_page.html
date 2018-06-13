@@ -4,26 +4,28 @@
 
 {% block body %}
 
-        <center>
+    <body>
 
-                {% if all_albums %}
+        {% if all_albums %}
 
-                    <h1 style="color:lightgrey">Owen's Albums</h1>
+            {%for album in all_albums%}
 
-                    <img class="img-circle" src = "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12804896_1147874438579277_3378301262197219096_n.jpg?_nc_cat=0&oh=84a31c8a2d4eb47b253d440c7212d603&oe=5BADC7C6">
+                <div class="container-fluid">
+                    <div class="col-md-4">
+                        <img class="img-rounded" src = "{{ album.album_logo }}" width="255" height="180" />
+                        <h3><a href = "{% url 'My_Songs:detail' album.id %}">{{ album.album_title }}</a></h3>
+                    </div>
+                </div>
+
+            {% endfor %}
 
 
-                        {%for album in all_albums%}
-                            <h3><a href = "{% url 'My_Songs:detail' album.id %}">{{ album.album_title }}</a></h3>
-                        {% endfor %}
+            {% else %}
+                <h3>What, do you hate music?</h3>
 
+        {% endif %}
 
-                {% else %}
-                    <h3>What, do you hate music?</h3>
-
-                {% endif %}
-
-        </center>
+    </body>
 
 {% endblock %}
 

@@ -16,14 +16,12 @@
             <p><strong>{{ error_message }}</strong></p>
         {% endif %}
 
-        <form action = "{% url 'My_Songs:favorite' album.id %}" method="post">
-
             {% csrf_token %}
             {% for song in album.song_set.all %}
 
             <ul style="color:lightgrey">
                 {% if song.song_link != null %}
-                    <a href = "{{ song.song_link }}" target="_blank">{{song.song_title}}</a>
+                    <iframe width="50%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="{{ song.song_link }}"></iframe>
                 {% else %}
                     {{song.song_title}}
                 {% endif %}

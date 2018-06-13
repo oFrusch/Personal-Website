@@ -13,9 +13,6 @@ urlpatterns = [
     # /My_Songs/<album_id>/
     path('<int:pk>/', views.DetailView.as_view(), name='detail'),
 
-    # /My_Songs/<album_id>/favorite/
-    path('<int:album_id>/', views.favorite, name='favorite'),
-
     # /My_Songs/all_songs/
     path('songs/', views.all_songs, name='all_songs'),
 ]

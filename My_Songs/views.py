@@ -28,17 +28,3 @@ class DetailView(generic.DetailView):
     template_name = 'My_Songs/detail.html'
 
 
-# Not currently being used - just an example of how to generate forms
-def favorite(request, album_id):
-    album = get_object_or_404(Album, pk=album_id)  # Tries to get album based on id - If not found sends 404 Not Found
-    try:
-        selected_song = album.song_set.get(pk=request.POST['song'])
-    except(KeyError, Song.DoesNotExist):
-        return render(request, 'My_Songs/detail.html', {
-            'album':album,
-            'error_message':"Not a valid song"
-        })
-    else:
-        selected_song.is_favorite = True
-        selected_song.save()
-        return render(request, 'My_Songs/detail.html', {'album': album})
