@@ -1,3 +1,37 @@
-.row{
-    margin-left: 10px;
+body{
+     background-repeat: no-repeat;
+     background-position: 90% 100%;
+     background-size: auto;
+     background-color: black;
 }
+
+#fb-logo{
+    font-size: 32px;
+    color: #3B5998;
+    margin-left: 23px;
+    margin-bottom: 20px;
+}
+
+#yt-logo{
+    font-size: 32px;
+    color: #e52d27;
+    margin-left: 33px;
+    margin-top: 5px;
+}
+
+#twitter-logo{
+    font-size: 32px;
+    color: #00aced;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+// Not working for some reason - Add to do inline for this one
+#gh-logo(
+    font-size: 32px;
+    color: #6e5494;
+    margin-left: 30px;
+    margin-top: 5px;
+)
+
+

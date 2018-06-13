@@ -1,6 +1,6 @@
 {% extends 'My_Songs/base.html' %}
 
-{% block title %} Umbrella Made of Rain {% endblock %}
+{% block title %} {{ album.album_title}}  {% endblock %}
 
 {% block body %}
 
@@ -21,7 +21,7 @@
             {% csrf_token %}
             {% for song in album.song_set.all %}
 
-            <ul>
+            <ul style="color:lightgrey">
                 {% if song.song_link != null %}
                     <a href = "{{ song.song_link }}" target="_blank">{{song.song_title}}</a>
                 {% else %}
