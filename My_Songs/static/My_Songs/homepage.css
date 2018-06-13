@@ -5,6 +5,10 @@ body{
      background-color: black;
 }
 
+.container-fluid{
+
+}
+
 #fb-logo{
     font-size: 32px;
     color: #3B5998;

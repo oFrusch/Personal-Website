@@ -5,13 +5,13 @@ app_name = 'My_Songs'# Separate 'detail' 'index' and other patterns in between a
 
 urlpatterns = [
     # /My_Songs/
-    path('', views.index, name='index'),
+    path('', views.TemplateView.as_view(), name='index'),
 
     # /My_Songs/album_page/
-    path('album_page/', views.album_page, name='album_page'),
+    path('album_page/', views.AlbumView.as_view(), name='album_page'),
 
     # /My_Songs/<album_id>/
-    path('<int:album_id>/', views.detail, name='detail'),
+    path('<int:pk>/', views.DetailView.as_view(), name='detail'),
 
     # /My_Songs/<album_id>/favorite/
     path('<int:album_id>/', views.favorite, name='favorite'),
