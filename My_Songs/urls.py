@@ -2,8 +2,7 @@ from django.urls import path
 import My_Songs.views
 
 
-
-app_name = 'My_Songs'# Separate 'detail' 'index' and other patterns in between apps (My_Songs:detail)
+app_name = 'My_Songs'  # Separate 'detail' 'index' and other patterns in between apps (My_Songs:detail)
 
 urlpatterns = [
     # /My_Songs/

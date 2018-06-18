@@ -6,16 +6,23 @@
 
     <body>
 
-    {% for post in all_posts %}
+         {% if all_posts %}
 
-        <div class="container-fluid">
-            <div class="col-md-4">
-                <h4><a href="{% url 'BlogApp:post' post.id %}">{{ post.title }}</a></h4>
-                <p>{{ post.post }}</p>
-            </div>
-        </div>
+            {% for this in all_posts %}
 
-    {% endfor %}
+                <div class="container-fluid">
+                    <div class="col-md-4">
+                        <h4><a href="{% url 'BlogApp:post-detail' this.id %}">{{ this.title }}</a></h4>
+                        <p style="line-height:1.2em; height:3.6em; overflow:hidden; color:lightgrey">{{ this.post }}</p>
+                    </div>
+                </div>
+
+            {% endfor %}
+
+         {% else %}
+            <h3>Post Unavailable</h3>
+
+         {% endif %}
 
     </body>
 

@@ -9,6 +9,6 @@ urlpatterns = [
     path('', BlogApp.views.BlogView.as_view(), name='all_posts'),
 
     # /BlogApp/<post_id>/
-    path('<int:pk>/', BlogApp.views.PostView.as_view(), name='post'),
+    path('<int:pk>/', BlogApp.views.PostView.as_view(), name='post-detail'),
 
 ]

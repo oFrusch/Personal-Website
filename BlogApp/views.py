@@ -1,5 +1,6 @@
 from BlogApp.models import BlogPost
 from django.views import generic
+from django.shortcuts import render
 
 
 class BlogView(generic.ListView):
@@ -13,3 +14,8 @@ class BlogView(generic.ListView):
 class PostView(generic.DetailView):
     model = BlogPost
     template_name = 'Blog/post.html'
+    context_object_name = 'post'
+
+
+
+

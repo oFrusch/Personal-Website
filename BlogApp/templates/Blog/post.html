@@ -1,12 +1,31 @@
 {% extends 'base.html' %}
 
-{% block title %} {{ this_post.title }}  {% endblock %}
+{% block title %} {{ post.title }}  {% endblock %}
 
 {% block body %}
 
 <body>
 
-    <h1>{{ this_post.title }}</h1>
+    <center>
+        <div class="container-fluid">
+            <div class="row">
+                <h1><bold>{{ post.title }}</bold></h1>
+                <img src="https://image.slidesharecdn.com/pythonprogrammingessentials-m2-introductiontopython-140819043153-phpapp02/95/python-programming-essentials-m2-introduction-to-python-11-638.jpg?cb=1408424504"
+                    class="img-rounded">
+            </div>
+
+            <div class="row">
+                <h3 style="color:lightgrey; margin-left:250px; margin-right:250px">{{ post.post }}</h3>
+            </div>
+
+            <div class="row">
+                {% if post.link %}
+                    <h3><a href="{{ post.link }}" target="_blank">You can find the project here.</a></h3>
+                {% endif %}
+            </div>
+
+        </div>
+    </center>
 
 </body>
 
