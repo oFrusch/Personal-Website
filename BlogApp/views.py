@@ -1,3 +1,15 @@
-from django.shortcuts import render
+from BlogApp.models import BlogPost
+from django.views import generic
 
-# Create your views here.
+
+class BlogView(generic.ListView):
+    template_name = 'Blog/all_posts.html'
+    context_object_name = 'all_posts'
+
+    def get_queryset(self):
+        return BlogPost.objects.all()
+
+
+class PostView(generic.DetailView):
+    model = BlogPost
+    template_name = 'Blog/post.html'

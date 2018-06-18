@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} All Posts {% endblock %}
+
+{% block body %}
+
+    <body>
+
+    {% for post in all_posts %}
+
+        <div class="container-fluid">
+            <div class="col-md-4">
+                <h4><a href="{% url 'BlogApp:post' post.id %}">{{ post.title }}</a></h4>
+                <p>{{ post.post }}</p>
+            </div>
+        </div>
+
+    {% endfor %}
+
+    </body>
+
+{% endblock %}

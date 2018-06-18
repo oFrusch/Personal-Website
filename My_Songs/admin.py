@@ -1,6 +1,8 @@
 from django.contrib import admin
-from .models import Album, Song, BlogPost
+from My_Songs.models import Album, Song
 
+# My_Songs models
 admin.site.register(Album)
 admin.site.register(Song)
-admin.site.register(BlogPost)
+
+
