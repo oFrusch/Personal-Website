@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'BlogApp/posts.css' %}" />
+
 {% block title %} {{ post.title }}  {% endblock %}
 
 {% block body %}
@@ -7,11 +10,19 @@
 <body>
 
     <center>
-        <div class="container-fluid">
+        <div class="container">
+
             <div class="row">
                 <h1><bold>{{ post.title }}</bold></h1>
+
+                {% if post.date_added %}
+                    <span>{{ post.date_added }}</span>
+                {% endif %}
+
+                {% if post.img %}
                 <img src="https://image.slidesharecdn.com/pythonprogrammingessentials-m2-introductiontopython-140819043153-phpapp02/95/python-programming-essentials-m2-introduction-to-python-11-638.jpg?cb=1408424504"
                     class="img-rounded">
+                {% endif %}
             </div>
 
             <div class="row">

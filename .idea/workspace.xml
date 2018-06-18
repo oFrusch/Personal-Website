@@ -6,19 +6,15 @@
     <bookmark url="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html" line="37" />
     <bookmark url="file://$PROJECT_DIR$/test1_tutorial/urls.py" line="7" />
     <bookmark url="file://$PROJECT_DIR$/BlogApp/models.py" line="14" />
-    <bookmark url="file://$PROJECT_DIR$/BlogApp/templates/Blog/post.html" line="16" />
+    <bookmark url="file://$PROJECT_DIR$/BlogApp/templates/Blog/post.html" line="27" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916b2e87-f104-4764-a403-c7bd02ca6386" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/BlogApp/static/posts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogApp/templates/Blog/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/templates/Blog/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_Songs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_Songs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,35 +25,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="all_posts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="357">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="24" selection-end-column="27" />
               <folding>
-                <element signature="n#style#0;n#h4#0;n#center#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#center#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BlogApp/models.py">
+      <file leaf-file-name="all_posts.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="425">
+              <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,22 +87,22 @@
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/songs.html" />
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/detail.html" />
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/album_page.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html" />
         <option value="$PROJECT_DIR$/My_Songs/models.py" />
         <option value="$PROJECT_DIR$/My_Songs/urls.py" />
         <option value="$PROJECT_DIR$/BlogApp/admin.py" />
         <option value="$PROJECT_DIR$/BlogApp/urls.py" />
         <option value="$PROJECT_DIR$/BlogApp/views.py" />
+        <option value="$PROJECT_DIR$/BlogApp/models.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/BlogApp/static/posts.css" />
         <option value="$PROJECT_DIR$/BlogApp/templates/Blog/post.html" />
         <option value="$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html" />
-        <option value="$PROJECT_DIR$/BlogApp/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -138,20 +127,31 @@
             <path>
               <item name="test1_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="test1_tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="BlogApp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test1_tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1_tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="My_Songs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test1_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="test1_tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="My_Songs" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test1_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="test1_tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="My_Songs" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="My_Songs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test1_tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1_tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,13 +251,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/album_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -418,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/static/My_Songs/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -486,13 +472,6 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -596,30 +575,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html">
+    <entry file="file://$PROJECT_DIR$/BlogApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Songs/static/My_Songs/homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlogApp/static/posts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="357">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#center#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#center#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/models.py">
+    <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="425">
+          <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

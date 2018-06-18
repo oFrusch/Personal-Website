@@ -1,0 +1,15 @@
+#posts{
+    width:400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+#post-area{
+    line-height: 1.2em;
+    height: 3.6em;
+    overflow: hidden;
+    color: lightgrey;
+}
