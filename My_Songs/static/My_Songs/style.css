@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 body{
-    margin-top:50px;
+    margin-top:75px;
     margin-bottom:50px;
     background-color: black;
     background-image: none;
@@ -43,14 +43,17 @@ a{
 
 .navbar{
     border-radius: 20;
-    background-color: black;
+    text-color:lightgrey;
+    background-color:;
     position:fixed;
     width: 100%;
+    height:5%;
 }
 
 .navbar-brand{
     font-family: 'Quicksand', sans-serif;
 }
+
 
 
 

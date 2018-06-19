@@ -1,6 +1,7 @@
 from BlogApp.models import BlogPost
 from django.views import generic
 from django.shortcuts import render
+from .forms import BlogPostForm
 
 
 class BlogView(generic.ListView):
@@ -17,5 +18,16 @@ class PostView(generic.DetailView):
     context_object_name = 'post'
 
 
+def new_post(request):
+    template = 'Blog/new_post.html'
+    form = BlogPostForm(request.POST or None)
 
+    if form.is_valid():
+        form.save()
+    else:
+        form = BlogPostForm()
 
+    context = {
+        'form': form,
+    }
+    return render(request, template, context)

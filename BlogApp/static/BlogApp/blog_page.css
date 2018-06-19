@@ -5,32 +5,20 @@
 }
 
 .flex-container{
-    margin-top:500px;
     background-color: lightgrey;
     display:flex;
     flex-direction: column;
     display: inline;
 }
 
-#footer{
-    width:100%;
-    background-color: lightblue;
-    color: black;
-    text-align:center;
-    position:relative;
-    bottom:0;
-    clear: both;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;
-
-}
-
 #main-content{
-    margin-top:50px;
     margin-bottom: 10px;
     background-color:;
     // border: inset;
+}
+
+.btn btn-link{
+    background-color:grey;
 }
 
 p{
@@ -47,5 +35,19 @@ img{
     min-width: 80px;
     max-width: 80px;
     text-align: center;
+}
+
+#footer{
+    width:100%;
+    background-color: lightblue;
+    color: black;
+    text-align:center;
+    position:relative;
+    bottom:0;
+    clear: both;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+
 }
 

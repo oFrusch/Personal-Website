@@ -10,7 +10,7 @@
 
             {%for album in all_albums%}
 
-                <div class="container-fluid">
+                <div class="container-fluid" style="margin-top:75px">
                     <div class="col-md-4">
                         <img class="img-rounded" src = "{{ album.album_logo }}" width="255" height="180" />
                         <h3><a href = "{% url 'My_Songs:detail' album.id %}">{{ album.album_title }}</a></h3>

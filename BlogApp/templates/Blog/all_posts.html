@@ -18,20 +18,27 @@
 
     <body class="scroll-area" data-spy="scroll" data-target=".navbar" data-offset="50">
 
+        <div class="row">
+            <div class="col-md-2 col-md-offset-10" style="color:black">
+                <button class="btn btn-info btn-md"><a href="new_post/">Add New Blog Post</a></button>
+            </div>
+        </div>
          {% if all_posts %}
 
             {% for post in all_posts %}
 
                 <div class="flex-container" id="spyOnThis">
-                    <div class="col-md-6 col-md-offset-3" id="main-content">
-                        <h4 style="color:lightblue">{{ post.title }}</h4>
-                        {% if post.date_added %}
-                            <span style="color:white">{{ post.date_added }}</span>
-                        {% endif %}
-                        {% if post.img %}
-                            <img src="{{post.img}}" class="img-rounded">
-                        {% endif %}
-                        <p>{{ post.post }}</p>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3" id="main-content">
+                            <h4 style="color:lightblue">{{ post.title }}</h4>
+                            {% if post.date_added %}
+                                <span style="color:white">{{ post.date_added }}</span>
+                            {% endif %}
+                            {% if post.img %}
+                                <img src="{{post.img}}" class="img-rounded">
+                            {% endif %}
+                            <p>{{ post.post }}</p>
+                        </div>
                     </div>
                 </div>
 
