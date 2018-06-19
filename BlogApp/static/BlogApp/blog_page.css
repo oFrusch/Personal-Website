@@ -1,0 +1,35 @@
+.scroll-area{
+    position:relative;
+    background-color: black;
+    overflow:auto;
+}
+
+.flex-container{
+    margin-top:500px;
+    background-color: lightgrey;
+    display:flex;
+    flex-direction: column;
+    display: inline;
+}
+
+#main-content{
+    margin-top:50px;
+    background-color:grey;
+}
+
+p{
+    color: lightgrey;
+    line-height: 2;
+}
+
+img{
+    width:720;
+    height:480;
+}
+
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 body{
-    background-color: darkseagreen;
+    background-color: black;
     background-image: none;
     font-family: 'Quicksand', sans-serif;
 }
@@ -38,6 +38,8 @@ a{
 .navbar-brand{
     font-family: 'Quicksand', sans-serif;
 }
+
+
 
 
 

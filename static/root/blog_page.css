@@ -1,0 +1,34 @@
+body{
+    background-color: white;
+}
+
+#main-content{
+    background-color:grey
+}
+#posts{
+    width:400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+#post-area{
+    line-height: 1.2em;
+    height: 3.6em;
+    overflow: hidden;
+    color: lightgrey;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}

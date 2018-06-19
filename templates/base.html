@@ -13,9 +13,11 @@
 
      <!-- Loads CSS styling -->
     {% load staticfiles %}
+    {% block css %} {% endblock %}
+    {% block javascript %} {% endblock %}
     <link rel="stylesheet" type="text/css" href="{% static 'My_Songs/style.css' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'My_Songs/homepage.css' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'BlogApp/posts.css' %}" />
+    <script src="{% static 'root/sticky.js' %}"></script>
+
 
 
     <!-- Font -->
@@ -23,11 +25,11 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <title>{% block title %} My Music {% endblock %}</title>
 
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
 
         <div class="container-fluid">
 
@@ -92,7 +94,6 @@
 
         </div>
     </nav>
-
 
     {% block body %}
 

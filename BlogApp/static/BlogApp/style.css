@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 body{
-    margin-top:50px;
-    background-color: black;
+    background-color: darkseagreen;
     background-image: none;
     font-family: 'Quicksand', sans-serif;
 }
@@ -32,9 +31,10 @@ a{
 }
 
 .navbar{
+    overflow: hidden;
     border-radius: 20;
     background-color: black;
-    position:fixed;
+    position: fixed;
     width: 100%;
 }
 
