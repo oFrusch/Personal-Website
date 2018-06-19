@@ -8,7 +8,7 @@ class BlogView(generic.ListView):
     context_object_name = 'all_posts'
 
     def get_queryset(self):
-        return BlogPost.objects.all()
+        return BlogPost.objects.order_by('-id')
 
 
 class PostView(generic.DetailView):

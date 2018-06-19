@@ -2,9 +2,19 @@
 
 body{
     margin-top:50px;
+    margin-bottom:50px;
     background-color: black;
     background-image: none;
     font-family: 'Quicksand', sans-serif;
+}
+
+#footer{
+    width:100%;
+    background-color: lightblue;
+    color: black;
+    text-align:center;
+    position:absolute;
+    bottom:0;
 }
 
 h1{
