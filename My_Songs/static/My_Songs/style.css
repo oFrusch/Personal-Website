@@ -3,14 +3,14 @@
 body{
     margin-top:75px;
     margin-bottom:50px;
-    background-color: black;
+    background-color: #F3EAEA;
     background-image: none;
     font-family: 'Quicksand', sans-serif;
 }
 
 #footer{
     width:100%;
-    background-color: lightblue;
+    background-color: #75CEEA;
     color: black;
     text-align:center;
     position:absolute;
@@ -43,8 +43,8 @@ a{
 
 .navbar{
     border-radius: 20;
-    text-color:lightgrey;
-    background-color:;
+    text-color:;
+    background-color:lightblue;
     position:fixed;
     width: 100%;
     height:5%;

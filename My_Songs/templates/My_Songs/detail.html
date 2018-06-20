@@ -2,14 +2,19 @@
 
 {% block title %} {{ album.album_title}}  {% endblock %}
 
+{% load staticfiles %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'My_Songs/detail.css' %}"/>
+{% endblock %}
+
 {% block body %}
 
     <center>
 
         <div class="container-fluid">
-            <h1>{{ album.album_title }}</h1>
-            <h3>{{ album.artist }} </h3>
-            <img class="img-rounded" src = "{{ album.album_logo }}" width="900" height="600" />
+            <img src = "{{ album.album_logo }}"/>
+            <div class="centered"><h2>{{ album.album_title }}</h2> </div>
+            <div class="bottom-centered"><h3>{{ album.artist }}</h3> </div>
         </div>
 
         {% if error_message %}

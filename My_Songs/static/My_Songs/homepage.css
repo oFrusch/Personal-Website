@@ -1,8 +1,8 @@
-body{
+.content{
      background-repeat: no-repeat;
      background-position: 90% 100%;
      background-size: auto;
-     background-color: white;
+     background-color: black;
 }
 
 .container-fluid{

@@ -5,9 +5,6 @@
     {% block css %}
         <link rel="stylesheet" type="text/css" href="{% static 'BlogApp\blog_page.css' %}"/>
     {% endblock %}
-    {% block javascript %}
-        <script src="{% static 'BlogApp/sidenav.js' %}"></script>
-    {% endblock %}
 
     {% block title %} All Posts {% endblock %}
 
@@ -30,14 +27,14 @@
                 <div class="flex-container" id="spyOnThis">
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3" id="main-content">
-                            <h4 style="color:lightblue">{{ post.title }}</h4>
+                            <h4 style="color:#75CEEA">{{ post.title }}</h4>
                             {% if post.date_added %}
-                                <span style="color:white">{{ post.date_added }}</span>
+                                <span style="color:grey">{{ post.date_added }}</span>
                             {% endif %}
                             {% if post.img %}
                                 <img src="{{post.img}}" class="img-rounded">
                             {% endif %}
-                            <p>{{ post.post }}</p>
+                            <p style="color:black">{{ post.post }}</p>
                         </div>
                     </div>
                 </div>
