@@ -10,14 +10,14 @@
 
 {% block body %}
 
-<div class="col-md-offset-3 col-md-6" style="color:lightgrey">
+<div class="col-md-offset-3 col-md-6" style="color:darkgrey">
     <form method="post">
         <div class="form-group">
             {% csrf_token %}
 
             {% for field in form %}
-                <label>{{field.label_tag}}</label>
-                {{field}}
+                <label>{{ field.label_tag }}</label>
+                {{ field }}
             {% endfor %}
         </div>
         <button type="submit"><a href='http://127.0.0.1:8000/BlogApp/'>Submit</a></button>

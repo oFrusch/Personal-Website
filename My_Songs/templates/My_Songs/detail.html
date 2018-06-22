@@ -21,6 +21,12 @@
             <p><strong>{{ error_message }}</strong></p>
         {% endif %}
 
+            <div class="row">
+                <div class="col-md-2 col-md-offset-10" style="color:black">
+                    <button class="btn btn-info btn-md"><a href="{% url 'My_Songs:add-song' %}">Add Song</a></button>
+                </div>
+            </div>
+
             {% csrf_token %}
             {% for song in album.song_set.all %}
 
@@ -30,6 +36,8 @@
                 {% else %}
                     {{song.song_title}}
                 {% endif %}
+                <button class="btn btn-success"><a href="{% url 'My_Songs:update-song' song.id %}">Edit</a></button>
+                <button class="btn btn-danger"><a href="{% url 'My_Songs:delete-song' song.id %}">Delete</a></button>
             </ul>
 
             {% endfor %}

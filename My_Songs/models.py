@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 # Sets up DB entries/structure
 
@@ -10,6 +11,9 @@ class Album(models.Model):
     album_logo = models.CharField(max_length=1000)
     album_description = models.CharField(max_length=10000, null=True, blank=True)
 
+    def get_absolute_url(self):
+        return reverse('My_Songs:detail', kwargs={'pk': self.pk})
+
     def __str__(self):
         return self.album_title + ' by ' + self.artist
 
@@ -20,6 +24,9 @@ class Song(models.Model):
     song_title = models.CharField(max_length=250)
     song_link = models.CharField(max_length=1000, null=True, blank=True)
     song_description = models.CharField(max_length=10000, null=True, blank=True)
+
+    def get_absolute_url(self):
+        return reverse('My_Songs:detail', kwargs={'pk': self.album.pk})
 
     def __str__(self):
         return self.song_title

@@ -17,5 +17,14 @@ urlpatterns = [
     # /My_Songs/all_songs/
     path('songs/', My_Songs.views.all_songs, name='all_songs'),
 
+    # /My_Songs/add_song/
+    path('add/', My_Songs.views.SongCreate.as_view(), name="add-song"),
+
+    # /My_Songs/<song_id>/updates/
+    path('<int:pk>/update/', My_Songs.views.SongUpdate.as_view(), name="update-song"),
+
+    # /My_Songs/<song_id>/delete_song/
+    path('<int:pk>/delete/', My_Songs.views.SongDelete.as_view(), name="delete-song"),
+
 
 ]

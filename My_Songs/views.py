@@ -1,6 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Album, Song
 from django.views import generic
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from django.urls import reverse_lazy
 
 
 # Second+ arguments have to match '<str:album_page>/' parameter in path, which is set in urls.py
@@ -27,4 +29,19 @@ class DetailView(generic.DetailView):
     model = Album
     template_name = 'My_Songs/detail.html'
 
+
+class SongCreate(CreateView):
+    model = Song
+    context_object_name = 'song'
+    fields = ['album', 'song_title', 'song_link', 'song_description']
+
+
+class SongUpdate(UpdateView):
+    model = Song
+    fields = ['album', 'song_title', 'song_link', 'song_description']
+
+
+class SongDelete(DeleteView):
+    model = Song
+    success_url = reverse_lazy('My_Songs:index')
 
