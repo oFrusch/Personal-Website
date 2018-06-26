@@ -3,27 +3,24 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/My_Songs/static/My_Songs/homepage.css" line="27" />
     <bookmark url="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/base.html" line="39" />
-    <bookmark url="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html" line="40" />
-    <bookmark url="file://$PROJECT_DIR$/test1_tutorial/urls.py" line="7" />
+    <bookmark url="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html" line="42" />
+    <bookmark url="file://$PROJECT_DIR$/test1_tutorial/urls.py" line="8" />
     <bookmark url="file://$PROJECT_DIR$/BlogApp/models.py" line="14" />
     <bookmark url="file://$PROJECT_DIR$/BlogApp/templates/Blog/post.html" line="27" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916b2e87-f104-4764-a403-c7bd02ca6386" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/My_Songs/static/My_Songs/django.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_Songs/templates/My_Songs/form-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_Songs/templates/My_Songs/song_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_Songs/templates/My_Songs/song_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1_tutorial/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1_tutorial/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/templates/Blog/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/templates/Blog/new_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_Songs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_Songs/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_Songs/templates/My_Songs/album_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_Songs/templates/My_Songs/album_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_Songs/templates/My_Songs/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_Songs/templates/My_Songs/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_Songs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_Songs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_Songs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_Songs/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Songs/templates/My_Songs/song_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_Songs/templates/My_Songs/song_confirm_delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1_tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1_tutorial/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1_tutorial/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1_tutorial/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,28 +30,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45386818">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/My_Songs/urls.py">
+          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="442">
-                  <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+                  <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
                   <folding>
-                    <element signature="e#0#28#0" expanded="true" />
+                    <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#i#0;n#a#2;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#i#0;n#a#3;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#i#0;n#a#4;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#i#0;n#a#5;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/My_Songs/views.py">
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test1_tutorial/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="799">
-                  <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+                <state relative-caret-position="689">
+                  <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
                   <folding>
-                    <element signature="e#0#54#0" expanded="true" />
+                    <element signature="e#0#45#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login_form.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/templates/login_form.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="71" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test1_tutorial/forms.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+                  <folding>
+                    <element signature="e#0#43#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -64,38 +87,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="album_page.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/album_page.html">
+          <file leaf-file-name="registration_form.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/templates/registration_form.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
                   <folding>
-                    <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="39" column="90" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#ul#0;n#center#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="song_confirm_delete.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/song_confirm_delete.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="67" />
-                  <folding>
-                    <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -131,8 +129,6 @@
         <option value="$PROJECT_DIR$/BlogApp/templates/blog_page.html" />
         <option value="$PROJECT_DIR$/BlogApp/templates/all_posts.html" />
         <option value="$PROJECT_DIR$/My_Songs/admin.py" />
-        <option value="$PROJECT_DIR$/test1_tutorial/urls.py" />
-        <option value="$PROJECT_DIR$/test1_tutorial/settings.py" />
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/songs.html" />
         <option value="$PROJECT_DIR$/BlogApp/admin.py" />
         <option value="$PROJECT_DIR$/BlogApp/models.py" />
@@ -148,22 +144,29 @@
         <option value="$PROJECT_DIR$/BlogApp/forms.py" />
         <option value="$PROJECT_DIR$/My_Songs/static/detail.css" />
         <option value="$PROJECT_DIR$/My_Songs/static/My_Songs/detail.css" />
-        <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html" />
         <option value="$PROJECT_DIR$/My_Songs/static/My_Songs/homepage.css" />
         <option value="$PROJECT_DIR$/BlogApp/static/BlogApp/blog_page.css" />
         <option value="$PROJECT_DIR$/My_Songs/static/My_Songs/style.css" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html" />
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/album_page.html" />
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/song_form.html" />
         <option value="$PROJECT_DIR$/My_Songs/models.py" />
-        <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/form-template.html" />
         <option value="$PROJECT_DIR$/BlogApp/templates/Blog/new_post.html" />
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/edit-song.html" />
         <option value="$PROJECT_DIR$/My_Songs/urls.py" />
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/detail.html" />
         <option value="$PROJECT_DIR$/My_Songs/views.py" />
+        <option value="$PROJECT_DIR$/My_Songs/static/My_Songs/alternate_homepage.css" />
+        <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html" />
         <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/song_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/test1_tutorial/settings.py" />
+        <option value="$PROJECT_DIR$/My_Songs/templates/My_Songs/form-template.html" />
+        <option value="$PROJECT_DIR$/test1_tutorial/urls.py" />
+        <option value="$PROJECT_DIR$/test1_tutorial/forms.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/test1_tutorial/views.py" />
+        <option value="$PROJECT_DIR$/templates/login_form.html" />
+        <option value="$PROJECT_DIR$/templates/registration_form.html" />
       </list>
     </option>
   </component>
@@ -195,15 +198,12 @@
             <path>
               <item name="test1_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="test1_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="My_Songs" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test1_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="test1_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="My_Songs" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="My_Songs" type="462c0819:PsiDirectoryNode" />
+              <item name="test1_tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,7 +262,7 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.091145836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13125" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -298,36 +298,16 @@
           <line>2</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test1_tutorial/forms.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test1_tutorial/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.sqlite3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/aria.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="319" column="18" selection-start-line="319" selection-start-column="18" selection-end-line="319" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/My_Songs/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -363,16 +343,6 @@
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1_tutorial/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test1_tutorial/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -383,13 +353,6 @@
           <folding>
             <element signature="e#49#89#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1_tutorial/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -450,26 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/static/My_Songs/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/My_Songs/static/My_Songs/detail.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -488,21 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#2;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#3;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#4;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#5;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,13 +466,6 @@
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/form-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -595,44 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/song_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="90" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#center#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/album_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -643,12 +526,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/song_confirm_delete.html">
+    <entry file="file://$PROJECT_DIR$/My_Songs/static/My_Songs/alternate_homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Songs/static/My_Songs/homepage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="67" />
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/song_confirm_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1_tutorial/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="90" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#center#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/form-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/song_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Songs/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1_tutorial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_Songs/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1_tutorial/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#2;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#3;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#4;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#5;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1_tutorial/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
