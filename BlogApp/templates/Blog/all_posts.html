@@ -8,8 +8,7 @@
     {% endblock %}
 
     {% block title %} All Posts {% endblock %}
-
-
+    {{ post.value | linebreaksbr }}
 </head>
 
 {% block body %}
@@ -35,7 +34,8 @@
                             {% if post.img %}
                                 <img src="{{post.img}}" class="img-rounded">
                             {% endif %}
-                            <p style="color:black">{{ post.post }}</p>
+
+                            <p id="post" style="color:black">{{ post.post|linebreaksbr }} </p>
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ from django.views.generic import View
 from .forms import UserForm, UserLoginForm
 from django.contrib.auth.models import User
 
+
 class UserFormView(View):
     form_class = UserForm
     template_name = "registration_form.html"

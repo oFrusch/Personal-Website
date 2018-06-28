@@ -1,6 +1,7 @@
 from BlogApp.models import BlogPost
 from django.views import generic
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.views.generic import View
 from .forms import BlogPostForm
 
 
@@ -18,16 +19,37 @@ class PostView(generic.DetailView):
     context_object_name = 'post'
 
 
-def new_post(request):
-    template = 'Blog/new_post.html'
-    form = BlogPostForm(request.POST or None)
+class NewBlogPostView(View):
+    template_name = 'Blog/new_post.html'
+    form_class = BlogPostForm
 
-    if form.is_valid():
-        form.save()
-    else:
-        form = BlogPostForm()
+    def get(self, request):
+        form = self.form_class(None)
+        return render(request, self.template_name, {'form': form})
 
-    context = {
-        'form': form,
-    }
-    return render(request, template, context)
+    def post(self, request):
+        form = self.form_class(request.POST)
+
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.save()
+            return redirect('BlogApp:all_posts')
+
+        return render(request, self.template_name, {'form': form})
+
+
+
+
+
+
+
+
+    # if form.is_valid():
+    #     form.save()
+    # else:
+    #     form = BlogPostForm()
+    #
+    # context = {
+    #     'form': form,
+    # }
+    # return render(request, template, context)
