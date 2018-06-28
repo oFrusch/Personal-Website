@@ -1,4 +1,5 @@
 from django.contrib.auth.models import User
+# from .models import Profile
 from django import forms
 
 
@@ -18,3 +19,8 @@ class UserLoginForm(forms.Form):
         model = User
         fields = ['username', 'email', 'password']
 
+
+# class ProfileForm(forms.ModelForm):
+#     class Meta:
+#         model = Profile
+#         fields = ('bio', 'location', 'birth_date', 'num_contrib', 'profile_picture')
