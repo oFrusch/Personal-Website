@@ -26,5 +26,8 @@ urlpatterns = [
     # /My_Songs/<song_id>/delete_song/
     path('<int:pk>/delete/', My_Songs.views.SongDelete.as_view(), name="delete-song"),
 
+    # /My_Songs/aboutme/
+    path('aboutme_page/', My_Songs.views.AboutMeView.as_view(), name="about-me"),
+
 
 ]

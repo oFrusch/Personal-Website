@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+    {% load staticfiles %}
+    {% block css %}
+        <link rel="stylesheet" type="text/css" href="{% static 'My_Songs\aboutme.css' %}"/>
+    {% endblock %}
+
+{% block title %} About Me {% endblock %}
+
+{% block body %}
+
+    <body>
+
+        <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12313677_1096354523731269_8616707537810682270_n.jpg?_nc_cat=0&oh=b1c45a1bf023987f4e4edaada35ebe0f&oe=5BD649B5" style="width:100%">
+        <div id="flex-container">
+            <div id="row">
+                <div id="col-md-4 col-md-offset-4">
+                    <h2 style="color:darkgrey">Hi, I'm Owen Carpenter.</h2>
+                    <p>I'm a 20 year old Computer Science student at the University of Massachusetts Amherst.
+                        Growing up, I was always interested in computers - whether it was for gaming, video creation, or music creation.
+                        When it came time to decide what I wanted to study for college, Computer Science didn't come to me immediately.
+                        For some reason, I didn't even realize it was an option. However, as soon as my dad pointed it out to me,
+                        I was all for it.
+                    </p>
+                    <br>
+                    <p>So far, CompSci has pushed me and caused me to grow in ways I couldn't have ever imagined for myself just a few years ago.
+                        I've only just begun to break the surface with computers and programming, but already the vastness of the subject
+                        amazes me every time I think about it. Although programming is my preference when it comes to my studies, the
+                        benefits of understanding the low level hardware and theories of computation can not be denied.
+                    </p>
+                    <br>
+                    <h3 style="color:darkgrey">Outside of school and my studies, I like to consider myself a musician, athlete, and gamer.</h3>
+                     <br>
+                    <p>
+                        I have dedicated a lot of time over the past four years to studying the guitar and learning as much about it as I can. I can proudly say that it has been
+                        the most beneficial undertaking in my life, as it has opened my ears up to so much different music, and caused my to open
+                        my perspectives up to avenues of life that I would have never given a shot before.
+                    </p>
+                     <br>
+                    <p>
+                        I also like to frequent the gym. I highly recommend (and have been religiously following) Jim Wendler's 5/3/1 program. I can't recommend it enough.
+                        The strength gains and simplicity of the program are not to be ignored.
+                    </p>
+                    <br>
+                    <p>
+                        And after everything else in my typical day has wrapped up, I usually find myself in front of my monitor, playing video games with my
+                        longtime group of friends. I have had an interest in this type of content creation (both game development and gameplay recording) for a long time,
+                        and have even recorded and released some videos on Youtube when I was younger. As time goes forward, I would love to start streaming the games I play
+                        by myself and with my friends, to archive our idiocy throughout the years.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+{% endblock %}

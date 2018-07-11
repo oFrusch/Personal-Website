@@ -45,3 +45,7 @@ class SongDelete(DeleteView):
     model = Song
     success_url = reverse_lazy('My_Songs:index')
 
+
+class AboutMeView(generic.TemplateView):
+    template_name = 'My_Songs/aboutme_page.html'
+
