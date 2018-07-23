@@ -1,3 +1,5 @@
+from django.contrib.auth.models import User
+
 from BlogApp.models import BlogPost
 from django.views import generic
 from django.shortcuts import render, redirect
@@ -44,7 +46,7 @@ class CommentCreate(CreateView):
     template_name = "Blog/comment_form.html"
     model = Comment
     context_object_name = 'comment'
-    fields = ['post','comment']
+    fields = ['post', 'comment', 'commenter']
 
 
 

@@ -39,10 +39,15 @@
 
                             <div class="row">
                                 <div class="col-md-11 col-md-offset-1">
-                                    <h4 style="color:darkblue">Comments</h4>
+                                    <h4 style="color:#75CEEA">Comments</h4>
                                     {% for comment in post.comment_set.all %}
+                                        {{ comment.commenter }}
                                         <p style="border:1px; border-style:solid; border-color:lightgrey; color:black">
                                             {{ comment.comment }}
+                                            <br>
+                                            <div class="col-md-12 col-md-offset-0">
+                                                <h6>{{ comment.date }}</h6>
+                                            </div>
                                         </p>
                                     {% endfor %}
                                 </div>

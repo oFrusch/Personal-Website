@@ -5,18 +5,15 @@
     <bookmark url="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/base.html" line="39" />
     <bookmark url="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/homepage.html" line="42" />
     <bookmark url="file://$PROJECT_DIR$/test1_tutorial/urls.py" line="8" />
-    <bookmark url="file://$PROJECT_DIR$/BlogApp/models.py" line="34" />
+    <bookmark url="file://$PROJECT_DIR$/BlogApp/models.py" line="33" />
     <bookmark url="file://$PROJECT_DIR$/BlogApp/templates/Blog/post.html" line="27" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916b2e87-f104-4764-a403-c7bd02ca6386" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BlogApp/templates/Blog/comment_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/templates/Blog/comment_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/templates/Blog/comment_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -28,26 +25,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5245009">
+    <splitter split-orientation="horizontal" split-proportion="0.51966125">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/BlogApp/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+                <state relative-caret-position="663">
+                  <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
                   <folding>
-                    <element signature="e#0#35#0" expanded="true" />
+                    <element signature="e#0#43#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/BlogApp/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
                   </folding>
@@ -58,17 +55,17 @@
           <file leaf-file-name="comment_form.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/comment_form.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="11" selection-start-column="11" selection-end-column="11" />
+                <state relative-caret-position="391">
+                  <caret line="23" selection-start-line="23" selection-end-line="23" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="all_posts.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="all_posts.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+                <state relative-caret-position="374">
+                  <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
                   <folding>
                     <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
@@ -177,10 +174,10 @@
         <option value="$PROJECT_DIR$/BlogApp/forms.py" />
         <option value="$PROJECT_DIR$/BlogApp/urls.py" />
         <option value="$PROJECT_DIR$/BlogApp/admin.py" />
-        <option value="$PROJECT_DIR$/BlogApp/templates/Blog/comment_form.html" />
-        <option value="$PROJECT_DIR$/BlogApp/models.py" />
-        <option value="$PROJECT_DIR$/BlogApp/views.py" />
         <option value="$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html" />
+        <option value="$PROJECT_DIR$/BlogApp/templates/Blog/comment_form.html" />
+        <option value="$PROJECT_DIR$/BlogApp/views.py" />
+        <option value="$PROJECT_DIR$/BlogApp/models.py" />
       </list>
     </option>
   </component>
@@ -238,6 +235,11 @@
               <item name="My_Songs" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="My_Songs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test1_tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1_tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -499,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/update_profile_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -616,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/form-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/My_Songs/templates/My_Songs/album_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -654,43 +642,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BlogApp/models.py">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="969">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/form-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BlogApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="663">
+          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/comment_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BlogApp/templates/Blog/all_posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+        <state relative-caret-position="374">
+          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlogApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

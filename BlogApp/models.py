@@ -19,7 +19,6 @@ class BlogPost(models.Model):
 class Comment(models.Model):
     post = models.ForeignKey(BlogPost, null=True, on_delete=models.CASCADE)  # Relates Comment with BlogPost
     commenter = models.ForeignKey(User, null=True, on_delete=models.CASCADE)
-    userName = User.username
     date = models.DateTimeField('Date Posted', default=timezone.now)
     comment = models.TextField(max_length=2000)
 
