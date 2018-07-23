@@ -2,7 +2,9 @@ from BlogApp.models import BlogPost
 from django.views import generic
 from django.shortcuts import render, redirect
 from django.views.generic import View
-from .forms import BlogPostForm
+from .forms import BlogPostForm, CommentPostForm
+from django.views.generic.edit import CreateView
+from .models import Comment
 
 
 class BlogView(generic.ListView):
@@ -38,7 +40,11 @@ class NewBlogPostView(View):
         return render(request, self.template_name, {'form': form})
 
 
-
+class CommentCreate(CreateView):
+    template_name = "Blog/comment_form.html"
+    model = Comment
+    context_object_name = 'comment'
+    fields = ['post','comment']
 
 
 

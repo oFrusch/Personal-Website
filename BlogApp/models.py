@@ -1,4 +1,7 @@
 from django.db import models
+from django.contrib.auth.models import User
+from django.urls import reverse
+from django.utils import timezone
 
 
 class BlogPost(models.Model):
@@ -11,5 +14,22 @@ class BlogPost(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Comment(models.Model):
+    post = models.ForeignKey(BlogPost, null=True, on_delete=models.CASCADE)  # Relates Comment with BlogPost
+    commenter = models.ForeignKey(User, null=True, on_delete=models.CASCADE)
+    userName = User.username
+    date = models.DateTimeField('Date Posted', default=timezone.now)
+    comment = models.TextField(max_length=2000)
+
+    def get_absolute_url(self):
+        return reverse('BlogApp:all_posts')
+
+    def __str__(self):
+        return self.comment
+
+
+
 
 

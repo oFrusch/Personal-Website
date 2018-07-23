@@ -36,6 +36,21 @@
                             {% endif %}
 
                             <p id="post" style="color:black">{{ post.post|linebreaksbr }} </p>
+
+                            <div class="row">
+                                <div class="col-md-11 col-md-offset-1">
+                                    <h4 style="color:darkblue">Comments</h4>
+                                    {% for comment in post.comment_set.all %}
+                                        <p style="border:1px; border-style:solid; border-color:lightgrey; color:black">
+                                            {{ comment.comment }}
+                                        </p>
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                            <br>
+
+                            <a href="{% url 'BlogApp:comment' post.id %}">Add Comment</a>
                         </div>
                     </div>
                 </div>
