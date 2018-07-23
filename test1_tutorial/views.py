@@ -4,6 +4,7 @@ from django.views import generic
 from django.views.generic import View
 from .forms import UserForm, UserLoginForm
 from django.contrib.auth.models import User
+from django.contrib.auth import logout
 
 
 class UserFormView(View):
@@ -90,6 +91,11 @@ class UserPageView(generic.TemplateView):
 #             return redirect('settings:profile')
 #
 #         return render(request, self.template_name, {'form': form})
+
+
+def logout_view(request):
+    logout(request)
+    return redirect('My_Songs:index')
 
 
 

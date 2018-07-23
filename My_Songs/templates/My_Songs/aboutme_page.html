@@ -1,3 +1,4 @@
+<head>
 {% extends 'base.html' %}
 
     {% load staticfiles %}
@@ -7,11 +8,31 @@
 
 {% block title %} About Me {% endblock %}
 
+    <script type="text/javascript">
+
+        function changeImg(){
+            document.getElementByClassName("img-rounded").src = images[x];
+            x = (x + 1) % x;
+        }
+
+        function imgTimer(){
+            setInterval(changeImg, 300);
+        }
+
+        var images = [], x = 0;
+        images[0] = "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12313677_1096354523731269_8616707537810682270_n.jpg?_nc_cat=0&oh=b1c45a1bf023987f4e4edaada35ebe0f&oe=5BD649B5";
+        images[1] = "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/31659917_1663797473697043_6064904261911707648_o.jpg?_nc_cat=0&oh=44d51e1733812684d546bdc099c1a107&oe=5C0F1CBC";
+        images[2] = "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/18893437_480097902333574_8912007922953234888_n.jpg?_nc_cat=0&oh=57c49522bce147728c586009f9df2dc8&oe=5C0F61FD";
+        images[3] = "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12804896_1147874438579277_3378301262197219096_n.jpg?_nc_cat=0&oh=87d288f3cd1929c6e598ec570796b11f&oe=5BD554C6";
+
+    </script>
+
+</head>
 {% block body %}
 
-    <body>
+    <body onload="imgTimer()">
 
-        <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12313677_1096354523731269_8616707537810682270_n.jpg?_nc_cat=0&oh=b1c45a1bf023987f4e4edaada35ebe0f&oe=5BD649B5" style="width:100%">
+        <img id="me-img" class="img-circle" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12313677_1096354523731269_8616707537810682270_n.jpg?_nc_cat=0&oh=b1c45a1bf023987f4e4edaada35ebe0f&oe=5BD649B5" style="width:100%">
         <div id="flex-container">
             <div id="row">
                 <div id="col-md-4 col-md-offset-4">
@@ -49,9 +70,18 @@
                         by myself and with my friends, to archive our idiocy throughout the years.
                     </p>
                 </div>
-                </div>
             </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                  <h4 style="color:black">You can contact me at:</h4>
+                  <h5 style="color:black">owenc343@gmail.com</h5>
+                  <h5 style="color:black">ocarpenter@umass.edu</h5>
+              </div>
+            </div>
+
         </div>
+
 
     </body>
 
